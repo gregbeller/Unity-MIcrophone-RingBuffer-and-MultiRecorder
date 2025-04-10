@@ -27,6 +27,7 @@ public class AS_WaveformDisplayRing : MonoBehaviour
     {
         ringClip = audioBuffer.GetAudioSegment(ringClipDuration);
         WaveFormDisplay(ringClip);
+	kill(ringClip);
     }
 
     void WaveFormDisplay(AudioClip clip){
